@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+}
+
+.global {
+    list-style-type: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.global li {
+    margin-bottom: 10px;
+}
+
+.global .un {
+    color: rgba(0, 0, 0, 0.200)
+}
+
+.global .deux {
+    color: rgba(0, 0, 0, 0.400)
+}
+
+.global .trois {
+    color: rgba(0, 0, 0, 0.600)
+}
+
+.global .quatre {
+    color: rgba(0, 0, 0, 0.800)
+}
+
+.global .cinq {
+    width: 300px;
+    border: solid 5px black;
+    color: rgba(0, 0, 0, 1);
+    background-color: lightgrey;
+}
+
+.global .winner {
+    color: red;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 161, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+textarea {
+    width: 500px;
+}
