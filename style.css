@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 body {
     background-color: aliceblue;
 }
@@ -40,28 +42,37 @@ body {
 }
 
 button {
+    width: 400px;
+    height: 70px;
     display: block;
     padding: 9px 25px;
     background-color: rgba(0, 136, 161, 1);
-    border: none;
+    border: 5px solid blueviolet;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
     margin: auto;
+    font-size: x-large;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.3s ease 0s;
 }
 
 button:hover {
     background-color: blueviolet;
+    border: 5px solid rgba(0, 136, 161, 1);
 }
 
 textarea {
+    font-size: large;
+    font-weight: bold;
     display: block;
     border: solid 15px black;
     width: 400px;
     resize: none;
-    height: 50px;
+    height: 100px;
     border-radius: 20px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .roll {
