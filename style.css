@@ -40,12 +40,14 @@ body {
 }
 
 button {
+    display: block;
     padding: 9px 25px;
     background-color: rgba(0, 136, 161, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    margin: auto;
 }
 
 button:hover {
@@ -53,5 +55,18 @@ button:hover {
 }
 
 textarea {
-    width: 500px;
+    display: block;
+    border: solid 15px black;
+    width: 400px;
+    resize: none;
+    height: 50px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.roll {
+    border: solid 15px black;
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
 }
